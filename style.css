@@ -86,10 +86,22 @@ footer a {
     display: flex;
     flex-direction: row;
     float: left;
+    margin-left: 75px;
 }
 
 .footerRight {
     display: flex;
     flex-direction: row;
     float: right;
+    margin-right: 75px;
+}
+
+.footerLeft a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footerRight a {
+    margin-left: 15px;
+    margin-right: 15px;
 }

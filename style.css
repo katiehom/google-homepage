@@ -1,0 +1,28 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+html {
+    box-sizing: border-box;
+  }
+  
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;  
+}

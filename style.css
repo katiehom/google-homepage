@@ -71,6 +71,25 @@ footer {
     height: 100px;
     width: 100%;
     background-color: #f2f2f2;
-    left: 0;
     bottom: 0;
+    text-align: center;
+}
+
+footer a {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #808080;
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: row;
+    float: right;
 }

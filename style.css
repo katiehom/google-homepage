@@ -21,6 +21,11 @@ nav {
     flex-direction: row;
 }
 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 nav ul {
     list-style-type: none;
 }
@@ -35,23 +40,6 @@ nav ul li a {
     color: black;  
 }
 
-.topNavLeft {
-
-}
-
-.main-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-.push {
-    margin-left: auto;
-}
-/*
-.topNavRight {
-    margin-right: 15px;
-}
-*/
 a {
     cursor: pointer;
 }

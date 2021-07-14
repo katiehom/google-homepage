@@ -100,6 +100,23 @@ button {
     */
 }
 
+.search-icon i {
+    position: absolute;
+}
+
+.search-icon {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px
+    color: #e0e0e0;
+    min-width: 50px;
+    text-align: center;
+}
+
+/*
 .searchBar {
     position: relative;
 }
@@ -111,7 +128,7 @@ button {
     left: 20px;
     content: "\f002";
 }
-
+*/
 #search:hover {
     box-shadow: 0px 1px 5px 1px #d6d6d6;
     border-style: none;

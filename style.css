@@ -90,13 +90,26 @@ button {
     border-width: thin;
     */
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     /*
-    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-image: url(https://lh3.googleusercontent.com/proxy/FBWekVG-fQgMffpUWqqsTVizGUT6EYHVCfUtmFPtBir69bd3aIMAlcsDIBSDeyO3OHQuIZYGvO4LjTuTA7S0HHpVO8XNlvac-XmtUizpJuwNU8KaU_qls5pwkQWfzsPgAv-D2-x1cOIbiLQk);
+    background-size: 15px;
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 50px;
+    padding-left: 60px;
     */
+}
+
+.searchBar {
+    position: relative;
+}
+
+.searchBar:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 20px;
+    content: "\f002";
 }
 
 #search:hover {

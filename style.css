@@ -48,10 +48,19 @@ nav ul li a {
     padding-left: 25px;
 }
 
-.links {
+.links-left {
     padding-right: 15px;
     font-size: 14px;
 }
+
+.links-right {
+    padding-left: 12px;
+    margin-top: 20px;
+}
+/*
+.right-side {
+    padding: 10px;
+}*/
 /*
 .right-side {
     display: flex;

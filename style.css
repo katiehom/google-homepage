@@ -52,21 +52,21 @@ nav ul li a {
     padding-right: 15px;
     font-size: 14px;
 }
-
+/*
 .links-right {
     padding-left: 12px;
     margin-top: 20px;
-}
+}*/
 /*
 .right-side {
     padding: 10px;
 }*/
-/*
-.right-side {
+
+.right-nav-container {
     display: flex;
     align-items: baseline;
 }
-*/
+
 a {
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ button {
 }
 
 .GoogleLogo {
-    margin-top: 200px;
+    margin-top: 222px;
 }
 
 .center {
@@ -120,12 +120,18 @@ button {
 }
 
 .centerSearchButtons {
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px;
     border-style: none;
     border-radius: 3px;
     margin: 4px;
     background-color: #f8f8f8;
     font-size: 14px;
+}
+
+.centerSearchButtons:hover {
+    box-shadow: 1px 1px 2px 1px #d6d6d6;
+    padding: 10px 15px;
+    margin: 4px;
 }
 
 footer {

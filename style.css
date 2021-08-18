@@ -97,11 +97,11 @@ button {
 }
 
 #search {
-    width: 550px;
-    height: 45px;
+    width: 585px;
+    height: 46px;
     border: 1px solid #e3e3e3;
     border-radius: 3rem;
-    margin-top: 25px;
+    margin-top: 26px;
     margin-bottom: 10px;
     background-image: url(https://lh3.googleusercontent.com/proxy/FBWekVG-fQgMffpUWqqsTVizGUT6EYHVCfUtmFPtBir69bd3aIMAlcsDIBSDeyO3OHQuIZYGvO4LjTuTA7S0HHpVO8XNlvac-XmtUizpJuwNU8KaU_qls5pwkQWfzsPgAv-D2-x1cOIbiLQk);
     background-size: 15px;
@@ -120,17 +120,17 @@ button {
 }
 
 .centerSearchButtons {
-    padding: 10px 15px;
+    padding: 10px 17px;
     border-style: none;
     border-radius: 3px;
-    margin: 4px;
+    margin: 19px 4px;
     background-color: #f8f8f8;
     font-size: 14px;
 }
 
 .centerSearchButtons:hover {
     box-shadow: 1px 1px 2px 1px #d6d6d6;
-    padding: 10px 15px;
+    padding: 10px 17px;
     margin: 4px;
 }
 
@@ -160,14 +160,16 @@ footer p {
     display: flex;
     flex-direction: row;
     float: left;
-    margin-left: 75px;
+    margin-left: 140px;
+    /* Need to make auto adjust */
 }
 
 .footerRight {
     display: flex;
     flex-direction: row;
     float: right;
-    margin-right: 75px;
+    margin-right: 140px;
+    /* Need to make auto adjust */
 }
 
 .footerLeft a {

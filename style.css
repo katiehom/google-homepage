@@ -140,12 +140,17 @@ button {
     height: 36px;
     font-size: 1.1em;
     font-weight: 500;
-    background-color: #056bfa;
+    background-color: #346beb;
     color: white;
     border: none;
     border-radius: 4px;
     margin-right: 18px;
     margin-left: 15px;
+}
+
+#signIn:hover {
+    background-color: #3d75f8;
+    box-shadow: 0px 1px 3px 1px #d6d6d6;
 }
 
 .GoogleLogo {

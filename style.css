@@ -5,7 +5,9 @@
 }
 
 html {
-    box-sizing: inherit;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
   
 body {
@@ -20,10 +22,43 @@ header {
 } 
 
 nav {
-    margin: 0;
     padding: 0;
+    width: 100%;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.linksLeft {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.linksRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-nav-container {
+
+}
+
+/*
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -61,12 +96,12 @@ nav ul li a {
 .right-side {
     padding: 10px;
 }*/
-
+/*
 .right-nav-container {
     display: flex;
     align-items: baseline;
 }
-
+ */
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -109,7 +144,6 @@ button {
     color: white;
     border: none;
     border-radius: 4px;
-    margin-top: 12px;
     margin-right: 18px;
     margin-left: 15px;
 }

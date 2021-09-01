@@ -12,22 +12,24 @@
     <header class="top">
     <!-- <div id="navbar"> -->
 
-      <nav id="navbar">
-        <ul>
-          <li class="linksLeft">
-            <a href="#">About</a>
-            <a href="#">Store</a>
-          </li>
-          <div class="right-nav-container">
-          <li class="linksRight">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <span class="material-icons" class="apps" class="linksRight"
-              title="Google apps" id="apps">apps</span>
-            <button id="signIn" class="signIn_button">Sign in</button>
-          </li>
-          </div>
-        </ul>
+      <nav id="navbar"> <!-- I don't think the id is needed, consider removing later -->
+        <div class="container">
+          <div class="left-container">
+            <ul class="nav-left">
+              <li><a href="#">About</a></li>
+              <li class="store"><a href="#">Store</a></li>
+            </ul>
+          </div> <!-- left-container -->
+          <div class="right-container">
+            <ul class="nav-right">
+              <li><a href="#">Gmail</a></li>
+              <li><a href="#">Images</a></li>
+              <span class="material-icons" class="apps" class="linksRight"
+                title="Google apps" id="apps">apps</span>
+              <button id="signIn" class="signIn_button">Sign in</button>
+            </ul>
+          </div> <!-- right-container -->
+        </div> <!-- container -->
       </nav>
 
 <!--

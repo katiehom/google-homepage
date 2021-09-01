@@ -35,7 +35,6 @@ nav {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    /* max-width: 1500px; */
     justify-content: space-between;
     align-items: center;
 }
@@ -89,88 +88,6 @@ nav ul li a:hover {
     margin-left: 10px;
 }
 
-/*
-nav {
-    padding: 0;
-    width: 100%;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-flex;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.linksLeft {
-    font-size: 14px;
-    margin-left: 20px;
-}
-
-.linksRight {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.right-nav-container {
-
-}
-*/
-/*
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;  
-}
-
-.left-side {
-    padding-top: 20px;
-    padding-left: 25px;
-}
-
-.links-left {
-    padding-right: 15px;
-    font-size: 14px;
-}
-/*
-.links-right {
-    padding-left: 12px;
-    margin-top: 20px;
-}*/
-/*
-.right-side {
-    padding: 10px;
-}*/
-/*
-.right-nav-container {
-    display: flex;
-    align-items: baseline;
-}
- */
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -214,8 +131,6 @@ button {
     color: white;
     border: none;
     border-radius: 4px;
-    /* margin-right: 18px;
-    margin-left: 15px; */
 }
 
 #signIn:hover {
@@ -232,20 +147,6 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
-/*
-#search {
-    width: 585px;
-    height: 46px;
-    border: 1px solid #e3e3e3;
-    border-radius: 3rem;
-    margin-top: 26px;
-    margin-bottom: 10px;
-    background-image: url(https://lh3.googleusercontent.com/proxy/FBWekVG-fQgMffpUWqqsTVizGUT6EYHVCfUtmFPtBir69bd3aIMAlcsDIBSDeyO3OHQuIZYGvO4LjTuTA7S0HHpVO8XNlvac-XmtUizpJuwNU8KaU_qls5pwkQWfzsPgAv-D2-x1cOIbiLQk);
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: 3% 50%;
-}
-*/
 
 #input_container {
     width: 585px;

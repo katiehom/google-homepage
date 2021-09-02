@@ -347,7 +347,12 @@ footer a {
 footer ul {
     list-style-type: none;
 }
-
+/* trying to get footer items to not wrap text 
+footer ul li {
+    display: flex;
+    flex-flow: row nowrap;
+}
+*/
 footer ul li a {
     text-decoration: none;
     color: #808080;

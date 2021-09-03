@@ -316,16 +316,19 @@ footer a {
 .footer-center {
     justify-content: center;
     text-decoration: none;
+    min-width: 200px;
 } /* need to make this centered at all times */
 
 .footer-left {
     justify-content: flex-start;
     width: 340px;
+    min-width: 340px;
 }
 
 .footer-right {
     justify-content: flex-end;
     width: 225px;
+    min-width: 225px;
 }
 
 .footer-left-links {

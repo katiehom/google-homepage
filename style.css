@@ -317,6 +317,7 @@ footer a {
     justify-content: center;
     text-decoration: none;
     min-width: 200px;
+    margin-right: 8em;
 } /* need to make this centered at all times */
 
 .footer-left {
@@ -350,7 +351,7 @@ footer a {
 footer ul {
     list-style-type: none;
 }
-/* trying to get footer items to not wrap text 
+
 footer ul li {
     display: flex;
     flex-flow: row nowrap;
